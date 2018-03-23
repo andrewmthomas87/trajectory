@@ -64,10 +64,10 @@ func main() {
 			qVals[action] = reward + gamma*maxQ
 
 			learn.Learn(network, environment.State(), qVals, 0.05)
-		}
 
-		if epsilon > 0.1 {
-			epsilon -= (1.0 - 0.75*float64(i)/float64(epochs)) / 20
+			if epsilon > 0.1 {
+				epsilon -= (1.0 - 0.75*float64(i)/float64(epochs)) / 15
+			}
 		}
 	}
 

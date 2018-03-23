@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f3bb2a-e052-4224-8c5d-244aeae7aa26" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/network-working.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/network.json" afterPath="$PROJECT_DIR$/network.json" />
+      <change beforePath="$PROJECT_DIR$/test.go" afterPath="$PROJECT_DIR$/test.go" />
+      <change beforePath="$PROJECT_DIR$/training.go" afterPath="$PROJECT_DIR$/training.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,17 +21,27 @@
         <entry file="file://$PROJECT_DIR$/heuristic.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="training.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="training.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/training.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="47" column="56" lean-forward="true" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+            <state relative-caret-position="690">
+              <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spline.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trajectory/Spline.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="103" column="5" lean-forward="false" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -37,19 +50,21 @@
       <file leaf-file-name="RealEnvironment.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learning/RealEnvironment.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="102" column="51" lean-forward="false" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
+            <state relative-caret-position="407">
+              <caret line="41" column="77" lean-forward="false" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="295">
+              <caret line="166" column="53" lean-forward="false" selection-start-line="166" selection-start-column="53" selection-end-line="166" selection-end-column="53" />
+              <folding>
+                <element signature="e#14#128#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,9 +90,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>[:]</find>
-      <find>previousVelocity</find>
-      <find>velocityValues[i-1]</find>
       <find>previousVeloci</find>
       <find>min</find>
       <find>tValues</find>
@@ -104,6 +116,10 @@
       <find>4</find>
       <find>pow</find>
       <find>-6.3336</find>
+      <find>State()</find>
+      <find>15</find>
+      <find>&lt; 50</find>
+      <find>50</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -132,9 +148,9 @@
         <option value="$PROJECT_DIR$/learning/Environment.go" />
         <option value="$PROJECT_DIR$/init.go" />
         <option value="$PROJECT_DIR$/trajectory/SplineSkeleton.go" />
-        <option value="$PROJECT_DIR$/test.go" />
-        <option value="$PROJECT_DIR$/training.go" />
         <option value="$PROJECT_DIR$/learning/RealEnvironment.go" />
+        <option value="$PROJECT_DIR$/training.go" />
+        <option value="$PROJECT_DIR$/test.go" />
       </list>
     </option>
   </component>
@@ -174,7 +190,7 @@
             <path>
               <item name="trajectory" type="b2602c69:ProjectViewProjectNode" />
               <item name="trajectory" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="trajectory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build heuristic.go">
+  <component name="RunManager" selected="Go Build.go build test.go">
     <configuration name="go build heuristic.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="trajectory" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -264,9 +280,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build heuristic.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build training.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build training.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build heuristic.go" />
         <item index="3" class="java.lang.String" itemvalue="Go Build.go build init.go" />
         <item index="4" class="java.lang.String" itemvalue="Go Build.go build main.go" />
       </list>
@@ -285,7 +301,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36235294" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36235294" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -330,16 +346,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#118#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trajectory/SkidSteerRobot.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -613,14 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trajectory/Spline.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trajectory/VelocityProfile.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -693,22 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning/RealEnvironment.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="102" column="51" lean-forward="false" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -720,16 +702,50 @@
     <entry file="file://$PROJECT_DIR$/heuristic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trajectory/Spline.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="103" column="5" lean-forward="false" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning/RealEnvironment.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="41" column="77" lean-forward="false" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network-working.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="0" column="4295" lean-forward="false" selection-start-line="0" selection-start-column="4295" selection-end-line="0" selection-end-column="4295" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/training.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="47" column="56" lean-forward="true" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+        <state relative-caret-position="690">
+          <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="166" column="53" lean-forward="false" selection-start-line="166" selection-start-column="53" selection-end-line="166" selection-end-column="53" />
+          <folding>
+            <element signature="e#14#128#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
